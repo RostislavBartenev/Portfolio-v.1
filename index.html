@@ -15,15 +15,15 @@
     <h1 class="name">Бартенев <br> Ростислав</h1>
     <ul class="nav">
       <li class="nav-item"><a href="#portfolio">Портфолио</a></li>
-      <li class="nav-item">Обо мне</li>
-      <li class="nav-item">Контакты</li>
+      <li class="nav-item"><a href="#about">Обо мне</a></li>
+      <li class="nav-item"><a href="#contacts">Контакты</a></li>
     </ul>
   </nav>
 
   <div class="main">
-
-  <div class="portfolio">
-    <a name="portfolio"></a>
+  
+  <a name="portfolio"></a>
+  <section class="portfolio">
 		<h1>Портфолио</h1>
 		<div class="gallery">
 			<div class="img">
@@ -54,13 +54,50 @@
 				<img src="img/Star Wars.jpg" alt="9">
 			</div>
     </div>
+  </section>
+  <hr>
+  <a name="about"></a>
+  <section class="about">
+    <h1>Обо мне</h1>
+    <div class="about-content">
+      <img src="./img/me.jpg" alt="me">
+      <h2>Бартенев Ростислав</h2>
+    </div>
+    <hr>
+    <h1>Навыки</h1>
+    <div class="about-skills">
+      <ul>
+        <li class="about__skills-bar front">Front-End</li>
+        <li class="about__skills-bar back">Back-End</li>
+        <li class="about__skills-bar design">Дизайн</li>
+      </ul>
+    </div>
+    <hr>
+  </section>
+  <a name="contacts"></a>
+  <section class="contacts">
+    <h1>Контакты</h1>
+    <div class="form">
+      <form action="#">
+        <input type="text" placeholder="Ваше имя">
+        <input type="text" placeholder="Ваша почта">
+        <button>Отправить</button>
+      </form>
+    </div>
+  </section>
+  <hr>
   </div>
-    
-    
-
-  </div>
-  
 </div>
+<footer>
+  <div class="footer-content">
+    <h2>&copy; Бартенев Ростислав </h2>
+    <div class="icons">
+      <a target="_blank" href="https://vk.com/rostislav.bartenev"><img src="./img/vk.svg" alt="vk"></a>
+      <a target="_blank" href="https://wa.me/77757860504"><img src="./img/whatsapp.svg" alt="whatsapp"></a>
+      <a target="_blank" href="mailto:rostislav.bartenev@gmail.com"><img src="./img/mail.svg" alt="mail"></a>
+    </div>
+  </div>
+</footer>
   
 </body>
 </html>
