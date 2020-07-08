@@ -51,6 +51,7 @@ nav {
 
 .nav-item {
   padding: 40px;
+  transition: .5s;
 }
 
 
