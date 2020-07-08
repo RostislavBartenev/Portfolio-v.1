@@ -178,8 +178,24 @@ nav {
 }
 
 .about-content h2 {
+  color: white; 
+}
+
+.about-content-text hr {
+  margin-left: 0;
+  margin-top: 20px;
+  border-color: black;
+  margin-bottom: 35px;
+}
+
+.about-content-text p {
   color: white;
-  
+  text-align: left;
+  font-size: 22px
+}
+
+.about-content-text p strong, i {
+  color: black;
 }
 
 
