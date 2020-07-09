@@ -350,7 +350,7 @@ footer {
   filter: opacity(0.3);
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1450px) {
 
   nav {
     display: none;
@@ -398,6 +398,12 @@ footer {
 		display: grid;
 		grid-template-columns: auto auto auto;
   }
+
+
+  .about-content img {
+    width: 100%;
+  }
+
   
 }
 @media only screen and (max-width: 430px) {
