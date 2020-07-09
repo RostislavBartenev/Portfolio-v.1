@@ -379,6 +379,10 @@ footer {
     text-align: center;
   }
 
+  .about-content-text hr {
+    margin: 50px auto;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
