@@ -7,6 +7,15 @@
 
 }
 
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 hr {
   width: 90%;
   margin: 0 auto;
@@ -293,6 +302,12 @@ form button {
   cursor: pointer;
   color: rgb(54, 54, 54);
   transition: .3s;
+  background-color: white;
+}
+
+
+form button:hover {
+  box-shadow: none;
 }
 
 input {
