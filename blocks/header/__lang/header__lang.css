@@ -1,0 +1,7 @@
+.header__lang_active {
+  text-decoration: underline;
+}
+
+.header__lang:first-child {
+  margin-right: 18px;
+}
